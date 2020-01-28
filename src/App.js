@@ -18,8 +18,8 @@ class App extends Component {
                             <a href="#contact">Contact</a>
                         </Navigation>
                     </Header>
-                    <Drawer className="drawer-color" title={<a href="#landing">James Wong</a>}>
-                        <Navigation>
+                    <Drawer id="drawerID" className="drawer-color" title={<a href="#landing">James Wong</a>}>
+                        <Navigation className="drawer-style">
                             <a href="#about">About</a>
                             <a href={Pdf} rel="noopener noreferrer" target="_blank">Resume</a>
                             <a href="#projects">Projects</a>
