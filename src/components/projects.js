@@ -29,27 +29,7 @@ class Projects extends Component {
                     <hr/>
                 </div>
                 <Grid className="projects-grid">
-                    <Project
-                        name="Project 1"
-                        desc="fat"
-                        img="http://www.getmdl.io/assets/demos/welcome_card.jpg"
-                        github="/"
-                        demo="/"
-                    />
-                    <Project
-                        name="Project 2"
-                        desc="fat"
-                        img="https://liquidplanner-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/HiRes-17.jpg"
-                        github="/"
-                        demo="/"
-                    />
-                    <Project
-                        name="Project 3"
-                        desc="fat"
-                        img="http://www.getmdl.io/assets/demos/welcome_card.jpg"
-                        github="/"
-                        demo="/"
-                    />
+                        <Project/>
                 </Grid>
             </div>
         )
