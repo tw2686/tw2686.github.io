@@ -27,7 +27,6 @@ class Contact extends Component {
                         <p>(734) 623-3650</p>
                     </Cell>
                     <Cell col={4}>
-
                         {/* LinkedIn */}
                         <a href="https://www.linkedin.com/in/jameswong912/" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-linkedin-square" aria-hidden="true"></i>
