@@ -104,6 +104,21 @@ header.header-color {
     padding: 20px;
 }
 
+#experiences {
+    height: 90vh;
+}
+
+.experience-title {
+    text-align: center;
+    justify-content: center;
+}
+
+.experience-title hr {
+    border-top: solid 5px black;
+    width: 10%;
+    margin: auto;
+}
+
 #projects {
     height: 90vh;
 }
