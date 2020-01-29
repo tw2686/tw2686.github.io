@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+// import { backgroundPic } from '../images';
 
 class Landing extends Component {
     render() {
         return (
             <div style={{width: '100%', margin: 'auto'}} id="landing">
-                <Grid className="landing-grid">
+                <Grid className="landing-grid" style={{ backgroundColor: 'white'}}>
+                    {/*background: `url(${backgroundPic}) center / cover`*/}
                     <Cell col={12}>
 
                         <div className="banner-text">
