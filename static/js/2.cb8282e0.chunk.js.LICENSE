@@ -53,3 +53,9 @@ object-assign
    * See the License for the specific language governing permissions and
    * limitations under the License.
    */
+
+/*!
+ * Materialize v1.0.0 (http://materializecss.com)
+ * Copyright 2014-2017 Materialize
+ * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
+ */

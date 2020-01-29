@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcfb7d25.chunk.css",
-    "main.js": "/static/js/main.8401ec9b.chunk.js",
-    "main.js.map": "/static/js/main.8401ec9b.chunk.js.map",
+    "main.css": "/static/css/main.edc62437.chunk.css",
+    "main.js": "/static/js/main.bce64598.chunk.js",
+    "main.js.map": "/static/js/main.bce64598.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.440727f7.js",
     "runtime-main.js.map": "/static/js/runtime-main.440727f7.js.map",
-    "static/css/2.559fd73f.chunk.css": "/static/css/2.559fd73f.chunk.css",
-    "static/js/2.bebc7de9.chunk.js": "/static/js/2.bebc7de9.chunk.js",
-    "static/js/2.bebc7de9.chunk.js.map": "/static/js/2.bebc7de9.chunk.js.map",
+    "static/css/2.fb70bd8a.chunk.css": "/static/css/2.fb70bd8a.chunk.css",
+    "static/js/2.cb8282e0.chunk.js": "/static/js/2.cb8282e0.chunk.js",
+    "static/js/2.cb8282e0.chunk.js.map": "/static/js/2.cb8282e0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b6202aa8c97b59e46afd1aae3763d7e6.js": "/precache-manifest.b6202aa8c97b59e46afd1aae3763d7e6.js",
+    "precache-manifest.20d8adc7d14be15f5605838439c66012.js": "/precache-manifest.20d8adc7d14be15f5605838439c66012.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.559fd73f.chunk.css.map": "/static/css/2.559fd73f.chunk.css.map",
-    "static/css/main.dcfb7d25.chunk.css.map": "/static/css/main.dcfb7d25.chunk.css.map",
-    "static/js/2.bebc7de9.chunk.js.LICENSE": "/static/js/2.bebc7de9.chunk.js.LICENSE",
-    "static/media/JWong_Resume_Spring2020.pdf": "/static/media/JWong_Resume_Spring2020.cfa464d5.pdf"
+    "static/css/2.fb70bd8a.chunk.css.map": "/static/css/2.fb70bd8a.chunk.css.map",
+    "static/css/main.edc62437.chunk.css.map": "/static/css/main.edc62437.chunk.css.map",
+    "static/js/2.cb8282e0.chunk.js.LICENSE": "/static/js/2.cb8282e0.chunk.js.LICENSE",
+    "static/media/JWong_Resume_Spring2020.pdf": "/static/media/JWong_Resume_Spring2020.cfa464d5.pdf",
+    "static/media/albion.png": "/static/media/albion.7e61e77b.png",
+    "static/media/bg.jpg": "/static/media/bg.80daec34.jpg",
+    "static/media/dld.png": "/static/media/dld.192f7755.png",
+    "static/media/sunevision.png": "/static/media/sunevision.d70f9f09.png"
   },
   "entrypoints": [
     "static/js/runtime-main.440727f7.js",
-    "static/css/2.559fd73f.chunk.css",
-    "static/js/2.bebc7de9.chunk.js",
-    "static/css/main.dcfb7d25.chunk.css",
-    "static/js/main.8401ec9b.chunk.js"
+    "static/css/2.fb70bd8a.chunk.css",
+    "static/js/2.cb8282e0.chunk.js",
+    "static/css/main.edc62437.chunk.css",
+    "static/js/main.bce64598.chunk.js"
   ]
 }
