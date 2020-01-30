@@ -8,4 +8,7 @@ export const wrr = require('./wrr.png');
 export const guitar = require('./guitar.png');
 export const fursca = require('./fursca.jpg');
 export const panorama = require('./panorama.png');
+export const distsys = require('./distsys.png');
+export const portfolio = require('./portfolio.png');
+export const ai = require('./ai.png');
 export const backgroundPic = require('./bg.jpg');

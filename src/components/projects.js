@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { converts, panamx, wrr, guitar, fursca, panorama } from '../images';
+import { converts, panamx, wrr, guitar, fursca, panorama, distsys, portfolio, ai } from '../images';
 
 function Entry(props) {
     return (
-        <div className="col s12 m12 l6">
+        <div className="col s12 m12 l4">
             <div className="card">
                 <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" id="logoimg" src={props.img} alt="logo"/>
@@ -37,8 +37,8 @@ function Entry(props) {
 class Projects extends Component {
     render() {
         return (
-            <div style={{width: '100%', margin: 'auto'}} id="projects">
-                <div className="container">
+            <div style={{width: '90%', margin: 'auto'}} id="projects">
+                <div className="" id="projects-container">
                     <div className="row project-title">
                         <div className="col s12">
                             <h1>Projects</h1>
@@ -61,8 +61,7 @@ class Projects extends Component {
                             desc="A matrix manipulation language written in OCaml and LLVM."
                             loc="New York, NY"
                             date="Spring 2019"
-                            detail="A matrix manipulation language developed as
-                            a group project with 3 other students for COMS 4115 Programming Languages & Translators. PANAMX is an imperative, highly intuitive and user friendly programming language that is designed for matrix manipulation. PANAMX is implmeneted with a matrix data type that users can conveniently declare and initialize. Our group also implemented a rich library of build-in matrix operators and functions that can be easily used. The syntax of PANAMX is similar to that of C. For our final demonstration, our language was used to solve for x in common matrix equation Ax=B, find eigen values, construct a working perceptron, and OOP."
+                            detail="A group project with 3 other students for COMS 4115 Programming Languages & Translators. PANAMX is an imperative, highly intuitive and user friendly programming language that is designed for matrix manipulation. PANAMX is implmeneted with a matrix data type that users can conveniently declare and initialize. Our group also implemented a rich library of build-in matrix operators and functions that can be easily used. The syntax of PANAMX is similar to that of C. For our final demonstration, our language was used to solve for x in common matrix equation Ax=B, find eigen values, construct a working perceptron, and OOP."
                             role="I was the project manager of this group, which means I was in charge of project planning and timely completion of deliverables. I used Slack, WeChat, and google calendars to make sure my team had effective communication and clear deadlines. I encouraged Agile methodology, by putting focus on trust, iterative development, maintaining working code in main branch, adapting to changing requirements, and failing fast/early. I helped maintain the github repo, scheduled meetings, plan project milestones, worked heavily on implmenting various build-in matrix operators and functions, and made key decisions on many design aspects of our language."
                             tools="OCaml, LLVM, C, Docker"
                             img={panamx}
@@ -71,6 +70,16 @@ class Projects extends Component {
                                     <a href="https://github.com/tw2686/coms-4115_PANAMX" rel="noopener noreferrer" target="_blank">GitHub</a>
                                 </div>
                             }
+                            />
+                        <Entry
+                            name="ShardKV"
+                            desc="A key value database service that shards keys over a set of replica groups based on Paxos protocol."
+                            loc="New York, NY"
+                            date="Fall 2019"
+                            detail=""
+                            role=""
+                            tools="Go"
+                            img={distsys}
                             />
                     </div>
                     <div className="row project-grid">
@@ -97,6 +106,21 @@ class Projects extends Component {
                                 </div>
                             }
                             />
+                        <Entry
+                            name="Portfolio Website"
+                            desc="Static web app built using ReactJS, Materalize CSS libraries, hosted on GitHub pages."
+                            loc="New York, NY"
+                            date="Spring 2020"
+                            detail=""
+                            role=""
+                            tools="ReactJS, HTML/CSS, Materialize, GitHub Pages"
+                            img={portfolio}
+                            github={
+                                <div className="card-action">
+                                    <a href="https://github.com/tw2686/tw2686.github.io" rel="noopener noreferrer" target="_blank">GitHub</a>
+                                </div>
+                            }
+                            />
                     </div>
                     <div className="row project-grid">
                         <Entry
@@ -116,6 +140,16 @@ class Projects extends Component {
                             detail="This assignment was for COMS 4731 Computer Vision. We first figured out how to compute a homography given a source and destination image. Destination image is a shifted source image. Using the homography matrix, we developed a backwards warping algorithm that can apply the homography reproduce the destination image by applying it to its source. Following, we created image blending functions that can properly blend two images together. Then, we implemented the RANSAC algorithm in order to estimate correspondences between photos, and produce the best homography. Finally, using all the previously defined functions and algorithms, we stitched images together to form panoramas."
                             tools="Python, Jupyter Notebook"
                             img={panorama}
+                            />
+                        <Entry
+                            name="2048 Solver"
+                            desc="2048 game solver implmented using adversarial search algorithms and various heuristics."
+                            loc="New York, NY"
+                            date="Spring 2019"
+                            detail=""
+                            role=""
+                            tools="Python"
+                            img={ai}
                             />
                     </div>
                 </div>

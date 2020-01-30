@@ -141,7 +141,10 @@ a.mdl-navigation__link:hover {
 
 .experience-grid {
     justify-content: center;
+}
 
+img#logoimg.activator {
+    height: 300px;
 }
 
 #projects {
