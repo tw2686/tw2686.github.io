@@ -4,8 +4,8 @@ import { dld, deloitte, sunevision, albion } from '../images';
 
 function Entry(props) {
     return (
-        <Cell col={4} phone={6}>
-            <div className="card large">
+        <Cell col={4}>
+            <div className="card">
                 <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" id="logoimg" src={props.img} alt="logo"/>
                 </div>
