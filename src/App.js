@@ -29,7 +29,7 @@ class App extends Component {
                         </Navigation>
                     </Drawer>
                     <Content>
-                        <div className="page-content" style={{width: '100%', margin: 'auto', backgroundColor: 'white'}}>
+                        <div className="page-content" style={{width: '100%', margin: 'auto'}}>
                             <Main></Main>
                         </div>
 

@@ -14,17 +14,21 @@ function Entry(props) {
                         {props.name}
                         <i className="material-icons right">more_vert</i>
                     </span>
-                    <p>{props.desc}</p>
+                    <p className="biggerFont">{props.desc}</p>
                 </div>
+                {props.github}
                 <div className="card-reveal">
                     <span className="card-title grey-text text-darken-4">
-                        {props.name}
+                        <b>{props.name}</b>
                         <i className="material-icons right">close</i>
                     </span>
-                    <span>{props.loc} - {props.date}</span>
-                    <p>{props.detail}</p>
-                    <p>{props.role}</p>
-                    <p>Languages/Frameworks: <b>{props.tools}</b></p>
+                    <br></br>
+                    <p className="biggerFont">{props.loc} - {props.date}</p>
+                    {'\n'}
+                    <p className="biggerFont">{props.detail}</p>
+                    {'\n'}
+                    <p className="biggerFont">{props.role}</p>
+                    <p className="biggerFont">Languages/Frameworks: <b>{props.tools}</b></p>
                 </div>
             </div>
         </Cell>
@@ -60,6 +64,11 @@ class Projects extends Component {
                         role="I was the project manager of this group, which means I was in charge of project planning and timely completion of deliverables. I used Slack, WeChat, and google calendars to make sure my team had effective communication and clear deadlines. I encouraged Agile methodology, by putting focus on trust, iterative development, maintaining working code in main branch, adapting to changing requirements, and failing fast/early. I helped maintain the github repo, scheduled meetings, plan project milestones, worked heavily on implmenting various build-in matrix operators and functions, and made key decisions on many design aspects of our language."
                         tools="OCaml, LLVM, C, Docker"
                         img={panamx}
+                        github={
+                            <div className="card-action">
+                                <a href="https://github.com/tw2686/coms-4115_PANAMX" rel="noopener noreferrer" target="_blank">GitHub</a>
+                            </div>
+                        }
                         />
                 </Grid>
                 <Grid className="project-grid">
@@ -80,6 +89,11 @@ class Projects extends Component {
                         detail="Final project for COMS 4170 User Interface Design. Built a full stack web app that allows users to create and save video loops on YouTube videos. At the time, I was trying to learn fingerstyle guitar from watching YouTube, and I found it very tedious to have to click and drag progress bar everytime I wanted to practice a particular part I was stuck on. So I wanted to build a simple interface that allows me to create and save loops that I can play over and over again to practice. Users can search for existing YouTube tutorials, or add their own video. Data persists between from switching videos. Finally, a progress page was implemented that keeps track of time spent practicing for each song/video. This project focused heavily on iterative design, hence the report includes many prototypes and versions that lead up to the final product."
                         tools="jQuery, HTML/CSS, BootStrap, AJAX, Python, Flask"
                         img={guitar}
+                        github={
+                            <div className="card-action">
+                                <a href="https://github.com/tw2686/LoopGuitar" rel="noopener noreferrer" target="_blank">GitHub</a>
+                            </div>
+                        }
                         />
                 </Grid>
                 <Grid className="project-grid">
@@ -94,10 +108,11 @@ class Projects extends Component {
                         />
                     <Entry
                         name="PanoStitch"
-                        desc="Implemented computer vision teachniques to create and stitch overlapping images to create panoramas."
+                        desc="Implemented computer vision teachniques to create and stitch together overlapping images to create panoramas."
                         loc="New York, NY"
                         date="Fall 2019"
-                        detail="This assignment was for COMS 4731. We first figured out how to compute a homography given a source and destination image. Destination image is a shifted source image. Using the homography matrix, we developed a backwards warping algorithm that can apply the homography reproduce the destination image by applying it to its source. Following, we created image blending functions that can properly blend two images together. Then, we implemented the RANSAC algorithm in order to estimate correspondences between photos, and produce the best homography. Finally, using all the previously defined functions and algorithms, we stitched images together to form panoramas."
+                        detail="This assignment was for COMS 4731 Computer Vision. We first figured out how to compute a homography given a source and destination image. Destination image is a shifted source image. Using the homography matrix, we developed a backwards warping algorithm that can apply the homography reproduce the destination image by applying it to its source. Following, we created image blending functions that can properly blend two images together. Then, we implemented the RANSAC algorithm in order to estimate correspondences between photos, and produce the best homography. Finally, using all the previously defined functions and algorithms, we stitched images together to form panoramas."
+                        tools="Python, Jupyter Notebook"
                         img={panorama}
                         />
                 </Grid>

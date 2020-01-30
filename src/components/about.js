@@ -4,7 +4,7 @@ import { Grid, Cell } from 'react-mdl';
 class About extends Component {
     render() {
         return (
-            <div id="about">
+            <div id="about" style={{width: '100%', margin: 'auto'}}>
                 <Grid className="about-grid">
                     <Cell col={12}>
                         <h1>About</h1>

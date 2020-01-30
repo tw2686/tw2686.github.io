@@ -6,7 +6,7 @@ class Landing extends Component {
     render() {
         return (
             <div style={{width: '100%', margin: 'auto'}} id="landing">
-                <Grid className="landing-grid" style={{ backgroundColor: 'white'}}>
+                <Grid className="landing-grid">
                     {/*background: `url(${backgroundPic}) center / cover`*/}
                     <Cell col={12}>
 
