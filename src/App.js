@@ -20,7 +20,7 @@ class App extends Component {
                         </Navigation>
                     </Header>
                     <Drawer id="drawerID" className="drawer-color" title={<a href="#home">James Wong</a>}>
-                        <Navigation className="drawer-style">
+                        <Navigation className="drawer-style" id="sidelinks">
                             <a href="#about">About</a>
                             <a href={resume} rel="noopener noreferrer" target="_blank">Resume</a>
                             <a href="#experiences">Experience</a>

@@ -29,6 +29,14 @@ nav.drawer-style {
     background: #292F5C;
 }
 
+#sidelinks a {
+    color: white;
+}
+
+#sidelinks a:hover {
+    background-color: #7BC6E9;
+}
+
 a.mdl-navigation__link {
     font-size: 22px;
     color: white;
@@ -144,7 +152,7 @@ a.mdl-navigation__link:hover {
 }
 
 img#logoimg.activator {
-    height: 300px;
+    height: 280px;
 }
 
 #projects {
