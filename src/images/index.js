@@ -6,4 +6,6 @@ export const converts = require('./converts.png');
 export const panamx = require('./panamx.png');
 export const wrr = require('./wrr.png');
 export const guitar = require('./guitar.png');
+export const fursca = require('./fursca.jpg');
+export const panorama = require('./panorama.png');
 export const backgroundPic = require('./bg.jpg');

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import { converts, panamx, wrr, guitar } from '../images';
+import { converts, panamx, wrr, guitar, fursca, panorama } from '../images';
 
 function Entry(props) {
     return (
@@ -80,6 +80,25 @@ class Projects extends Component {
                         detail="Final project for COMS 4170 User Interface Design. Built a full stack web app that allows users to create and save video loops on YouTube videos. At the time, I was trying to learn fingerstyle guitar from watching YouTube, and I found it very tedious to have to click and drag progress bar everytime I wanted to practice a particular part I was stuck on. So I wanted to build a simple interface that allows me to create and save loops that I can play over and over again to practice. Users can search for existing YouTube tutorials, or add their own video. Data persists between from switching videos. Finally, a progress page was implemented that keeps track of time spent practicing for each song/video. This project focused heavily on iterative design, hence the report includes many prototypes and versions that lead up to the final product."
                         tools="jQuery, HTML/CSS, BootStrap, AJAX, Python, Flask"
                         img={guitar}
+                        />
+                </Grid>
+                <Grid className="project-grid">
+                    <Entry
+                        name="OscilloPi"
+                        desc="A Raspberry Pi Oscilloscope built for FURSCA Summer Research."
+                        loc="Albion, MI"
+                        date="Summer 2017"
+                        detail="This project was built for my summer FURSCA research project at Albion College. I worked with the Physics department to prototype an oscilloscope that can be mounted on a synthesizer for teaching purposes. To do this, I intergrated a low cost, 20-MHz oscilloscope with a Rasberry Pi. I used Python, Kivy, and SciPy libraries to write an interface that can manipulate the GPIO pins with widgets. I connected a BitScope Micro to the Raspberry Pi and got it to maeasure electrical signals. Following, I learned to use KiCAD, software to design custom printed circuit boards. I also learned to use SolidWorks, a CAD software that allowed me to model objects in 3D. After designing the prototype on SolidWorks, I produced it using a laser cutter and 3D printer using wood. Finally, I assembled all the parts that resulted in a compact oscilloscope so that can be mounted on a giant analog synthesizer."
+                        tools="Python, Raspberry Pi, BitScope, SolidWorks, KiCAD"
+                        img={fursca}
+                        />
+                    <Entry
+                        name="PanoStitch"
+                        desc="Implemented computer vision teachniques to create and stitch overlapping images to create panoramas."
+                        loc="New York, NY"
+                        date="Fall 2019"
+                        detail="This assignment was for COMS 4731. We first figured out how to compute a homography given a source and destination image. Destination image is a shifted source image. Using the homography matrix, we developed a backwards warping algorithm that can apply the homography reproduce the destination image by applying it to its source. Following, we created image blending functions that can properly blend two images together. Then, we implemented the RANSAC algorithm in order to estimate correspondences between photos, and produce the best homography. Finally, using all the previously defined functions and algorithms, we stitched images together to form panoramas."
+                        img={panorama}
                         />
                 </Grid>
             </div>
