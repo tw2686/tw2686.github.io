@@ -23,7 +23,7 @@ function Entry(props) {
                     <p>{props.loc} - {props.date}</p>
                     <p>{props.role}</p>
                     <div className="biggerFontu">{props.detail}</div>
-                    <p>Languages/Frameworks: <b>{props.tools}</b></p>
+                    <p>Technologies: <b>{props.tools}</b></p>
                 </div>
             </div>
         </div>
@@ -75,7 +75,7 @@ class Experience extends Component {
                     <div className="row experience-grid">
                         <Entry
                             name="SUNeVision Holdings Ltd"
-                            role="Software Engineer Intern"
+                            role="Software Engineering Intern"
                             loc="Hong Kong"
                             date="Summer 2018"
                             detail={

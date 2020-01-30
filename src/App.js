@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection } from 'react-mdl';
 import Main from './components/main';
-import resume from './docs/JWong_Resume_Spring2020.pdf';
+import resume from './docs/JWong_Resume_Spring20.pdf';
 
 class App extends Component {
     render() {
@@ -10,7 +10,7 @@ class App extends Component {
             <div className="demo-big-content">
 
                 <Layout fixedHeader>
-                    <Header className="header-color" title={<a href="#landing">James Wong</a>} waterfall>
+                    <Header className="header-color" title={<a href="#home">James Wong</a>} waterfall>
                         <Navigation className="nav-style">
                             <a href="#about">About</a>
                             <a href={resume} rel="noopener noreferrer" target="_blank">Resume</a>
@@ -19,7 +19,7 @@ class App extends Component {
                             <a href="#contact">Contact</a>
                         </Navigation>
                     </Header>
-                    <Drawer id="drawerID" className="drawer-color" title={<a href="#landing">James Wong</a>}>
+                    <Drawer id="drawerID" className="drawer-color" title={<a href="#home">James Wong</a>}>
                         <Navigation className="drawer-style">
                             <a href="#about">About</a>
                             <a href={resume} rel="noopener noreferrer" target="_blank">Resume</a>

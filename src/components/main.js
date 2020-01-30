@@ -1,5 +1,5 @@
 import React from 'react';
-import LandingPage from './landingpage';
+import Home from './home';
 import About from './about';
 import Contact from './contact';
 import Experience from './experience';
@@ -7,7 +7,7 @@ import Projects from './projects';
 
 const Main = () => (
     <div>
-        <LandingPage/>
+        <Home/>
         <About/>
         <Experience/>
         <Projects/>

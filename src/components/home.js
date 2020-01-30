@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 // import { backgroundPic } from '../images';
 
-class Landing extends Component {
+class Home extends Component {
     render() {
         return (
-            <div style={{width: '100%', margin: 'auto'}} id="landing">
-                <Grid className="landing-grid">
+            <div style={{width: '100%', margin: 'auto'}} id="home">
+                <Grid className="home-grid">
                     {/*background: `url(${backgroundPic}) center / cover`*/}
                     <Cell col={12}>
 
@@ -35,7 +35,7 @@ class Landing extends Component {
                                 </Cell>
                             </Grid>
 
-                            {/*<div className="landing-buttons">
+                            {/*<div className="home-buttons">
                                 <Button id="resume-button" href={Pdf} rel="noopener noreferrer" target="_blank">Resume</Button>
                                 <Button id="resume-button" href="#projects">Projects</Button>
                                 </div>*/}
@@ -49,4 +49,4 @@ class Landing extends Component {
         }
     }
 
-    export default Landing;
+    export default Home;

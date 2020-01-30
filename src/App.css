@@ -42,7 +42,7 @@ a.mdl-navigation__link:hover {
     background-color: #dbe4e4;
 }
 
-.landing-grid {
+.home-grid {
     background-color: #E8DBD1;
     text-align: center;
     width: 100%;
@@ -77,7 +77,7 @@ a.mdl-navigation__link:hover {
     padding: 1em;
 }
 
-.landing-buttons {
+.home-buttons {
     display: flex;
     justify-content: space-between;
     width: 30%;

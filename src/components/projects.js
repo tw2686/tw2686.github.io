@@ -27,7 +27,7 @@ function Entry(props) {
                     <p className="biggerFont">{props.detail}</p>
                     {'\n'}
                     <p className="biggerFont">{props.role}</p>
-                    <p className="biggerFont">Languages/Frameworks: <b>{props.tools}</b></p>
+                    <p className="biggerFont">Technologies: <b>{props.tools}</b></p>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@ class Projects extends Component {
                             />
                         <Entry
                             name="LoopGuitar"
-                            desc="A web app that allows you to create and save video loops on YouTube vidoes."
+                            desc="A web app that allows you to create and save video loops on YouTube videos."
                             loc="New York, NY"
                             date="Spring 2019"
                             detail="Final project for COMS 4170 User Interface Design. Built a full stack web app that allows users to create and save video loops on YouTube videos. At the time, I was trying to learn fingerstyle guitar from watching YouTube, and I found it very tedious to have to click and drag progress bar everytime I wanted to practice a particular part I was stuck on. So I wanted to build a simple interface that allows me to create and save loops that I can play over and over again to practice. Users can search for existing YouTube tutorials, or add their own video. Data persists between from switching videos. Finally, a progress page was implemented that keeps track of time spent practicing for each song/video. This project focused heavily on iterative design, hence the report includes many prototypes and versions that lead up to the final product."
@@ -108,7 +108,7 @@ class Projects extends Component {
                             />
                         <Entry
                             name="Portfolio Website"
-                            desc="Static web app built using ReactJS, Materalize CSS libraries, hosted on GitHub pages."
+                            desc="Static web app built using ReactJS, Materalize CSS, and GitHub pages."
                             loc="New York, NY"
                             date="Spring 2020"
                             detail=""
