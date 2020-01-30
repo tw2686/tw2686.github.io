@@ -28,11 +28,8 @@ class App extends Component {
                             <a href="#contact">Contact</a>
                         </Navigation>
                     </Drawer>
-                    <Content>
-                        <div className="page-content" style={{width: '100%', margin: 'auto'}}>
-                            <Main></Main>
-                        </div>
-
+                    <Content className="page-content">
+                        <Main></Main>
                         <Footer size="mini">
                             <FooterSection type="left" logo={<div>&copy; James Wong {new Date().getFullYear()}</div>}>
                             </FooterSection>

@@ -39,7 +39,7 @@ a.mdl-navigation__link:hover {
 }
 
 .page-content {
-    background-color: #BEEFFB;
+    background-color: #dbe4e4;
 }
 
 .landing-grid {
@@ -136,6 +136,7 @@ a.mdl-navigation__link:hover {
     border-top: solid 5px black;
     width: 10%;
     margin: auto;
+    padding: 20px;
 }
 
 .experience-grid {
@@ -144,7 +145,7 @@ a.mdl-navigation__link:hover {
 }
 
 #projects {
-    background-color: #F3F1F3;
+    background-color: #dbe4e4;
 }
 
 .project-title {
@@ -156,6 +157,7 @@ a.mdl-navigation__link:hover {
     border-top: solid 5px black;
     width: 10%;
     margin: auto;
+    padding: 20px;
 }
 
 .project-grid {
@@ -176,7 +178,7 @@ a.mdl-navigation__link:hover {
 .contact-grid {
     text-align: center;
     justify-content: center;
-    height: 30vh;
+    height: 20vh;
     color: black;
     width: 80%;
 }
