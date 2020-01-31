@@ -10,7 +10,7 @@ class App extends Component {
                 <div className="navbar-fixed">
                     <nav>
                         <div className="nav-wrapper">
-                            <a className="brand-logo" href="#top">James Wong</a>
+                            <a className="brand-logo" href="#top">James</a>
                             <a href="/#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                             <ul id="nav-mobile" className="right hide-on-med-and-down nav-font">
                                 <li><a href="#about">About</a></li>
