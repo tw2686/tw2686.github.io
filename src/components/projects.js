@@ -21,7 +21,6 @@ function Entry(props) {
                         <b>{props.name}</b>
                         <i className="material-icons right">close</i>
                     </span>
-                    <br></br>
                     <p className="biggerFont">{props.loc} - {props.date}</p>
                     {'\n'}
                     <p className="biggerFont">{props.detail}</p>
