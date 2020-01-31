@@ -121,6 +121,7 @@ section {
 
 img#logoimg.activator {
     height: 280px;
+    max-height: 50vh;
 }
 
 #projects {
