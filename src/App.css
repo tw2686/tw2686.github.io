@@ -56,7 +56,9 @@ section {
     background: var(--hover-bg);
 }
 
-
+.home-container {
+    transform: translateY(45%);
+}
 .home-grid {
     justify-content: center;
     background-color: var(--home-bg);
