@@ -8,17 +8,6 @@
     --contact-bg: #E8DBD1;
     --hover-bg: #7BC6E9;
 }
-/*
-:root {
---nav-bg: #5D5C61;
---home-bg: #7395AE;
---home-txt: white;
---about-bg: #557A95;
---exp-bg: #B1A296;
---projects-bg: #C2B9B0;
---contact-bg: #7395AE;
---hover-bg: #B1A296;
-} */
 
 header,
 footer,
@@ -57,7 +46,7 @@ section {
 }
 
 .home-container {
-    transform: translateY(45%);
+    /* transform: translateY(45%); */
 }
 .home-grid {
     justify-content: center;

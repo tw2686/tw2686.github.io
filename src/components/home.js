@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Home extends Component {
     render() {
         return (
-            <section className="home-grid scrollspy" id="home">
+            <section className="home-grid scrollspy valign-wrapper" id="home">
                 {/* style={{background: `url(${backgroundPic}) center / cover`}} */}
                 <div className="container home-container">
                     <div className="row">
