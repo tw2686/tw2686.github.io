@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
 
 class Contact extends Component {
     render() {
         return (
-            <div style={{width: '100%', margin: '0', background: '#E8DBD1'}} id="contact">
-                <Grid>
-                    <Cell col={12}>
-                        <div className="contact-title" >
-                            <h1>Contact</h1>
-                            <hr/>
+            <section id="contact" className="scrollspy">
+                <div className="container">
+                    <div className="row">
+                        <div className="col s12">
+                            <div className="contact-title" >
+                                <h1>Contact</h1>
+                                <hr/>
+                            </div>
                         </div>
-                    </Cell>
-                    <Cell col={12}>
                         <div className="row contact-grid">
                             <div className="col s12 m12 l4">
                                 {/* Email */}
@@ -30,15 +29,15 @@ class Contact extends Component {
                             </div>
                             <div className="col s12 m12 l4">
                                 {/* LinkedIn */}
-                                <a href="https://www.linkedin.com/in/jameswong912/" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/jwong912/" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                                 </a>
-                                <p>LinkedIn://jameswong912</p>
+                                <p>LinkedIn://jwong912</p>
                             </div>
                         </div>
-                    </Cell>
-                </Grid>
-            </div>
+                    </div>
+                </div>
+            </section>
         )
     }
 }

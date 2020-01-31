@@ -4,7 +4,7 @@ import { converts, panamx, wrr, guitar, fursca, panorama, distsys, portfolio, ai
 function Entry(props) {
     return (
         <div className="col s12 m12 l4">
-            <div className="card">
+            <div className="card hoverable">
                 <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" id="logoimg" src={props.img} alt="logo"/>
                 </div>
@@ -37,8 +37,8 @@ function Entry(props) {
 class Projects extends Component {
     render() {
         return (
-            <div style={{width: '90%', margin: 'auto'}} id="projects">
-                <div className="" id="projects-container">
+            <section id="projects" className="scrollspy">
+                <div id="projects-container">
                     <div className="row project-title">
                         <div className="col s12">
                             <h1>Projects</h1>
@@ -153,7 +153,7 @@ class Projects extends Component {
                             />
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

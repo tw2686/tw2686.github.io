@@ -4,7 +4,7 @@ import { dld, deloitte, sunevision, albion } from '../images';
 function Entry(props) {
     return (
         <div className="col s12 m12 l6">
-            <div className="card">
+            <div className="card hoverable">
                 <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator" id="logoimg" src={props.img} alt="logo"/>
                 </div>
@@ -33,7 +33,7 @@ function Entry(props) {
 class Experience extends Component {
     render() {
         return (
-            <div style={{width: '100%', margin: 'auto'}} id="experiences">
+            <section id="experiences" className="scrollspy">
                 <div className="container">
                     <div className="row experience-title">
                         <div className="col s12 m12 l12">
@@ -103,7 +103,7 @@ class Experience extends Component {
                             />
                     </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }

@@ -1,42 +1,46 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection } from 'react-mdl';
 import Main from './components/main';
 import resume from './docs/JWong_Resume_Spring20.pdf';
 
 class App extends Component {
     render() {
         return (
-            <div className="demo-big-content">
+            <div id="#top">
+                <div className="navbar-fixed">
+                    <nav>
+                        <div className="nav-wrapper">
+                            <a className="brand-logo" href="#top">James Wong</a>
+                            <a href="/#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                            <ul id="nav-mobile" className="right hide-on-med-and-down nav-font">
+                                <li><a href="#about">About</a></li>
+                                <li><a href={resume} rel="noopener noreferrer" target="_blank">Resume</a></li>
+                                <li><a href="#experiences">Experience</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <ul className="sidenav" id="mobile-demo">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href={resume} rel="noopener noreferrer" target="_blank">Resume</a></li>
+                    <li><a href="#experiences">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div>
+                    <Main></Main>
 
-                <Layout fixedHeader>
-                    <Header className="header-color" title={<a href="#home">James Wong</a>} waterfall>
-                        <Navigation className="nav-style">
-                            <a href="#about">About</a>
-                            <a href={resume} rel="noopener noreferrer" target="_blank">Resume</a>
-                            <a href="#experiences">Experience</a>
-                            <a href="#projects">Projects</a>
-                            <a href="#contact">Contact</a>
-                        </Navigation>
-                    </Header>
-                    <Drawer id="drawerID" className="drawer-color" title={<a href="#home">James Wong</a>}>
-                        <Navigation className="drawer-style" id="sidelinks">
-                            <a href="#about">About</a>
-                            <a href={resume} rel="noopener noreferrer" target="_blank">Resume</a>
-                            <a href="#experiences">Experience</a>
-                            <a href="#projects">Projects</a>
-                            <a href="#contact">Contact</a>
-                        </Navigation>
-                    </Drawer>
-                    <Content className="page-content">
-                        <Main></Main>
-                        <Footer size="mini">
-                            <FooterSection type="left" logo={<div>&copy; James Wong {new Date().getFullYear()}</div>}>
-                            </FooterSection>
-                        </Footer>
-                    </Content>
-                </Layout>
+                    <footer className="page-footer">
+                        <div className="container center">
+                            © James Wong {new Date().getFullYear()}
+                        </div>
+                    </footer>
+                </div>
             </div>
+
         );
     }
 }
